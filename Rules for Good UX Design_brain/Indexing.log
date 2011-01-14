@@ -1,0 +1,32 @@
+IndexBuilder started [Fri Jan 14 10:45:55 EST 2011]
+Reading index registry [Safe point: undefined]
+Index status: missing
+Indexing process started [Fri Jan 14 10:45:55 EST 2011]
+Processing 2,1 [count: 1; total: 1]
+Reading index registry [Safe point: undefined]
+Writing thought 2,1
+Writing thought label 2,1
+Writing thought tags 2,1
+Updating index registry [Safe point: restarted]
+Elapsed time: 35 + 35 = 70
+Indexing process completed [Fri Jan 14 10:45:55 EST 2011]
+Updating index registry [Safe point: restarted]
+Index status: initialized
+IndexBuilder stopped [Fri Jan 14 10:45:58 EST 2011]
+Start indexing [Fri Jan 14 10:45:58 EST 2011]
+Loading UrlIndexBuilder
+Loading index registry [/Users/patricksullivan/Documents/codemash2011/Rules for Good UX Design_brain/UrlIndexBuilder.dat]
+Loading index log [/Users/patricksullivan/Documents/codemash2011/Rules for Good UX Design_brain/UrlIndexBuilder.log]
+Updating index registry [Safe point: restarted]
+Index status: initialized
+Reading index registry [Safe point: undefined]
+UrlIndexBuilder created [BrainAPI = connected; backgroundRunning = true; synchronizedThread = 4; maxCPU = 0.5; showStatus = false; logFile = /Users/patricksullivan/Documents/codemash2011/Rules for Good UX Design_brain/UrlIndexBuilder.log; startTime = null; stopTime = null; total = 0; processed = 0; indexed = 0; indexBuilderDat = /Users/patricksullivan/Documents/codemash2011/Rules for Good UX Design_brain/UrlIndexBuilder.dat (empty); indexing = false]
+UrlIndexBuilder scheduled [Fri Jan 14 10:45:58 EST 2011]
+UrlIndexBuilder started [Fri Jan 14 10:45:58 EST 2011]
+Reading index registry [Safe point: undefined]
+Index status: safe
+Deleting index log [/Users/patricksullivan/Documents/codemash2011/Rules for Good UX Design_brain/UrlIndexBuilder.log]
+Indexing process started [Fri Jan 14 10:45:58 EST 2011]
+Processing 2,1 [count: 1; total: 1]
+Indexing process completed [Fri Jan 14 10:45:58 EST 2011]
+Indexing time: 00:00:00

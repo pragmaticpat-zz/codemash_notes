@@ -1,0 +1,38 @@
+01-14 09:25:46 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "BRAINSYSTEMINFO" not found; SQL statement:
+SELECT version FROM BrainSystemInfo WHERE GUID != '' [42102-145]
+01-14 09:25:46 jdbc[2]: Connection not closed
+java.lang.Exception: Stack Trace
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:121)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:94)
+	at org.h2.Driver.connect(Driver.java:72)
+	at java.sql.DriverManager.getConnection(DriverManager.java:582)
+	at java.sql.DriverManager.getConnection(DriverManager.java:207)
+	at com.thebrain.personal.a.a.a.D(xld:1291)
+	at com.thebrain.personal.a.a.a.d(xld:1495)
+	at com.thebrain.personal.a.a.a.i(xld:710)
+	at com.thebrain.personal.a.a.x.d(qnd:354)
+	at com.thebrain.personal.view.od.i(azc:2733)
+	at com.thebrain.personal.view.od.d(azc:2814)
+	at com.thebrain.personal.view.qc.run(azc:2265)
+	at java.lang.Thread.run(Thread.java:680)
+01-14 10:45:53 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: The object is already closed [90007-145]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:327)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1330)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1308)
+	at org.h2.jdbc.JdbcConnection.createStatement(JdbcConnection.java:164)
+	at com.thebrain.common.b.d.d(dgf:198)
+	at com.thebrain.common.b.d.d(dgf:159)
+	at com.thebrain.common.b.d.d(dgf:138)
+	at com.thebrain.personal.a.a.a.k(xld:540)
+	at com.thebrain.c.e.x.H(vsf:446)
+	at com.thebrain.personal.a.a.x.i(qnd:340)
+	at com.thebrain.personal.view.od.d(azc:3696)
+	at com.thebrain.personal.view.od.i(azc:2924)
+	at com.thebrain.personal.view.od.d(azc:2814)
+	at com.thebrain.personal.view.qc.run(azc:2265)
+	at java.lang.Thread.run(Thread.java:680)

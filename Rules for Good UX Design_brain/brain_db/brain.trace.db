@@ -1,0 +1,18 @@
+01-14 10:45:53 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "BRAINSYSTEMINFO" not found; SQL statement:
+SELECT version FROM BrainSystemInfo WHERE GUID != '' [42102-145]
+01-14 10:45:54 jdbc[2]: Connection not closed
+java.lang.Exception: Stack Trace
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:121)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:94)
+	at org.h2.Driver.connect(Driver.java:72)
+	at java.sql.DriverManager.getConnection(DriverManager.java:582)
+	at java.sql.DriverManager.getConnection(DriverManager.java:207)
+	at com.thebrain.personal.a.a.a.D(xld:1291)
+	at com.thebrain.personal.a.a.a.d(xld:1495)
+	at com.thebrain.personal.a.a.a.i(xld:710)
+	at com.thebrain.personal.a.a.x.d(qnd:354)
+	at com.thebrain.personal.view.od.i(azc:2733)
+	at com.thebrain.personal.view.od.d(azc:2814)
+	at com.thebrain.personal.view.qc.run(azc:2265)
+	at java.lang.Thread.run(Thread.java:680)
